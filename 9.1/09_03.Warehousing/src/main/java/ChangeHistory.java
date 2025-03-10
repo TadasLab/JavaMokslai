@@ -51,6 +51,9 @@ public class ChangeHistory{
         }
         return sum / history.size();
     }
+    public void clear(){
+        history.clear();
+    }
     @Override
     public String toString(){
         return history.toString();
